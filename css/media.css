@@ -20,6 +20,10 @@
         gap: 72px 24px;
     }
 
+    .customers > .container {
+        max-width: 584px;
+    }
+
     .customer-list-icon {
         width: 104px;
     }
@@ -33,7 +37,8 @@
 }
 /*?--- Desktop Version--- */
 @media screen and (min-width: 1158px) {
-    .container {
+    .container,
+    .customers > .container {
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
