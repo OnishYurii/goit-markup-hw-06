@@ -311,9 +311,15 @@ img {
 /* *--------Team----------- */
 .team {
     background-color: var(--light-color);
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
+
+.team > .container {
+    max-width: 296px;
+
+}
+
 .team-subtitle {
     text-align: center;
     margin-bottom: 8px;
@@ -327,13 +333,13 @@ img {
 .team-list > li {
     background-color: var(--white-color);
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 24 * 3) / 4);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .team-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
 }
 
 .team-title {

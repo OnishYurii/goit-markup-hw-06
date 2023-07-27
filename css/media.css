@@ -40,6 +40,21 @@
         gap: 72px 24px;
     }
 
+/* *---Team--- */
+    .team > .container {
+        max-width: 584px;
+    }
+
+    .team-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 64px 24px;
+    }
+
+    .team-list>li {
+        width: calc((100% - 24px) / 2);
+    }
+
 /**--- Customers--- */
     .customers-list {
         gap: 72px 24px;
@@ -103,7 +118,8 @@
 @media screen and (min-width: 1158px) {
     .container,
     .customers > .container,
-    .footer > .container {
+    .footer > .container,
+    .team > .container {
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
@@ -179,6 +195,24 @@
     .doing {
         display: flex;
     }
+
+/** ---Team--- */
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list > li {
+        width: calc((100% - 24px * 3) / 4);
+    }
+
+    .team-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+
+
 
 /* *---Customers--- */
     .customers {
