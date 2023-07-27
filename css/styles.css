@@ -288,6 +288,7 @@ img {
 /* *------- Doing-------- */
 .doing {
     padding-bottom: 120px;
+    display: none;
 }
 
 .doing-list {
