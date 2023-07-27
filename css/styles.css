@@ -209,27 +209,37 @@ img {
 
 /** ------Solution------ */
 .solution {
-    max-width: 1440px;
-    margin: 0 auto;
     background-color: var(--dark-color);
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), 
+    url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
+    
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .solution {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+        url(../images/hero-bg-mob-2x.jpg);
+    }
 }
 
 .solution-title {
     color: var(--white-color);
     text-align: center;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    text-transform: capitalize;
+    max-width: 320px;
     margin: 0 auto;
-    margin-bottom: 48px;
+    margin-bottom: 72px;
 }
 
 .solution-btn {
@@ -274,14 +284,6 @@ img {
 }
 
 .benefits-block {
-    width: 264px;
-    height: 112px;
-    border-radius: 4px;
-    background-color: var(--light-color);
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     display: none;
 }
 
