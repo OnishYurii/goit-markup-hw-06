@@ -227,7 +227,7 @@ img {
     justify-content: space-between;
     z-index: 2;
     transform: translateX(0);
-    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 350ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu.is-hidden {
@@ -777,7 +777,7 @@ img {
 
 .modal {
     width: 91.6vw;
-    overflow:auto;
+    overflow: auto;
     height: 73.4vh;
     max-width: 408px;
     max-height: 584px;
