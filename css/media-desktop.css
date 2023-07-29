@@ -1,0 +1,218 @@
+/*?--- Desktop Version--- */
+@media screen and (min-width: 1158px) {
+
+    .container,
+    .customers>.container,
+    .footer>.container,
+    .team>.container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /** ---Header--- */
+    .logo:hover,
+    .logo:focus {
+        color: var(--pressed-state-color);
+    }
+    
+    .header-menu-item:hover,
+    .header-menu-item:focus {
+        color: var(--pressed-state-color);
+    }
+
+    .head-address-link:hover,
+    .head-address-link:focus {
+        color: var(--pressed-state-color);
+    }
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .logo {
+        margin-right: 76px;
+    }
+
+    .header-menu-item {
+        padding-bottom: 27px;
+    }
+
+    .head-address-list {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    /** ---Solution--- */
+    .solution {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url(../images/hero-bg.jpg);
+        padding-top: 188px;
+        padding-bottom: 188px;
+
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .solution {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+                url(../images/hero-bg-2x.jpg);
+        }
+
+        .solution-title {
+            margin-bottom: 48px;
+        }
+    }
+
+    /* *---Benefits--- */
+    .benefits {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .benefits-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .benefits-item {
+        width: calc((100% - 24px * 3) / 4);
+    }
+
+    .benefits-block {
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        background-color: var(--light-color);
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .benefits-subtitle {
+        color: var(--dark-color);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-transform: none;
+        text-align: left;
+    }
+
+    .benefits-text {
+        color: var(--dark-color);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    /* *---What We Doing--- */
+    .doing {
+        display: flex;
+        padding-bottom: 120px;
+    }
+
+    .doing-list {
+        display: flex;
+        gap: 24px;
+    }
+    
+    .doing-title {
+        margin: 0 auto;
+        margin-bottom: 72px;
+    }
+    
+    .doing-item {
+         width: calc((100% - 24px * 2) / 3);
+    }
+
+    /** ---Team--- */
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list>li {
+        width: calc((100% - 24px * 3) / 4);
+    }
+
+    .team-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+
+
+
+    /* *---Customers--- */
+    .customers {
+        padding: 120px 0;
+    }
+
+    .customers-list {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .customers-list-item {
+        width: calc((100% - 24px * 5) / 6);
+    }
+
+    /** ---Portfolio--- */
+    .portfolio {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+
+    .btn-list {
+        margin-bottom: 72px;
+    }
+
+    .img-list {
+        gap: 48px 24px;
+    }
+
+    .img-list-item {
+        width: calc((100% - 24px * 2) / 3);
+    }
+
+
+    /* *---Footer--- */
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-container {
+        align-items: baseline;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+
+    .footer-text {
+        margin: 0;
+    }
+
+    .footer-list-container {
+        margin-bottom: 0;
+    }
+
+    .footer-top-container {
+        margin-right: 120px;
+    }
+
+    .footer-input {
+        opacity: 1;
+    }
+
+    .footer-input::placeholder {
+        opacity: 1;
+    }
+
+
+
+}

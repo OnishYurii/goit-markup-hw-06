@@ -1,30 +1,12 @@
 :root {
     --dark-color: #2E2F42;
-}
-
-:root {
     --text-color: #434455;
-}
-
-:root {
     --primary-brand-color: #4D5AE5;
-}
-
-:root {
     --white-color: #FFFFFF;
-}
-
-:root {
     --pressed-state-color: #404BBF;
-}
-
-:root {
     --light-color: #F4F4FD;
-}
-
-:root {
     --accent-color: #E7E9FC;
-}
+    }
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -138,27 +120,12 @@ img {
     color: var(--dark-color);
 }
 
-.logo:hover,
-.logo:focus {
+.logo:active {
     color: var(--pressed-state-color);
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
-    color: var(--pressed-state-color);
-}
 .head-address {
     display: none;
-}
-
-.head-address-link {
-    color: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.head-address-link:hover,
-.head-address-link:focus {
-    color: var(--pressed-state-color);
 }
 
 .header {
@@ -182,12 +149,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 31px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-menu-hamburger {
@@ -241,23 +202,6 @@ img {
 
 .current-mob {
     color: var(--pressed-state-color);
-}
-
-.current {
-    position: relative;
-    color: var(--pressed-state-color);
-}
-
-.current::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--pressed-state-color);
-    bottom: -1px;
-    left: 0;
-
 }
 
 .mob-address-phone {
@@ -388,20 +332,6 @@ img {
 .doing {
     padding-bottom: 120px;
     display: none;
-}
-
-.doing-list {
-    display: flex;
-    gap: 24px;
-}
-
-.doing-title {
-    margin: 0 auto;
-    margin-bottom: 72px;
-}
-
-.doing-item {
-    width: calc((100% - 24px * 2) / 3);
 }
 
 
