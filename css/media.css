@@ -107,7 +107,34 @@
 
     .customers-list-item {
         width: calc((100% - 48px) / 3);
-    }   
+    }
+    
+/** ---Portfolio--- */
+    .portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .btn-list > li > button {
+        padding: 12px 24px;
+    }
+
+    .btn-list {
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    .img-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .img-list-item {
+        width: calc((100% - 24px) / 2);
+    
+    }
+
 
 /* *---Footer--- */
     .footer {
@@ -287,6 +314,25 @@
     .customers-list-item {
          width: calc((100% - 24px * 5) / 6);
     }
+
+/** ---Portfolio--- */
+     .portfolio {
+        padding-top: 100px;
+        padding-bottom: 120px;
+     }
+
+     .btn-list {
+        margin-bottom: 72px;
+     }
+
+     .img-list {
+        gap: 48px 24px;
+     }
+
+      .img-list-item {
+       width: calc((100% - 24px * 2) / 3);
+    }
+
 
 /* *---Footer--- */
     .footer {
