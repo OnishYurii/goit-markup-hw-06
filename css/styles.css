@@ -228,7 +228,7 @@ img {
 .mob-list-social {
     display: flex;
     gap: 13%;
-    margin-top: 6vh;
+    margin-top: 5vh;
 }
 
 .mob-social-item {
