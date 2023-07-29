@@ -536,7 +536,7 @@ img {
 .footer-logo {
     color: var(--primary-brand-color);
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-bottom: 17.5px;
 }
 
