@@ -180,6 +180,11 @@
         width: calc((100% - 24px * 2) / 3);
     }
 
+    .img-link:is(:hover, :focus) .cover-text {
+        transform: translateY(0);
+    }
+
+
 
     /* *---Footer--- */
     .footer {

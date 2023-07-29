@@ -662,13 +662,14 @@ img {
     border-top: none;
 }
 
-.img-link:is(:hover, :focus) .cover-text {
-    transform: translateY(0);
-}
-
 .img-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cover-text-container {
+    position: relative;
+    overflow: hidden;
 }
 
 .cover-text {
@@ -685,10 +686,6 @@ img {
 
 }
 
-.cover-text-container {
-    position: relative;
-    overflow: hidden;
-}
 
 /* *--------Modal-------- */
 .backdrop {
