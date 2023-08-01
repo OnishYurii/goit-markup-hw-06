@@ -9,6 +9,10 @@
     display: none;
 }
 
+.mob-menu {
+    display: none;
+}
+
 .header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -113,6 +117,10 @@
         gap: 72px 24px;
     }
 
+    .benefits-subtitle {
+        text-align: left;
+    }
+
 /* *---Team--- */
     .team > .container {
         max-width: 584px;
@@ -171,6 +179,12 @@
     
     }
 
+/**---Modal--- */
+    .modal {
+    width: 408px;
+    padding: 72px 24px 24px;
+    }
+
 
 /* *---Footer--- */
     .footer {
@@ -188,6 +202,14 @@
 
     .footer-input {
         width: 264px;
+    }
+
+    .footer-text {
+        margin-bottom: 0;
+    }
+
+    .footer-list-container {
+        margin-bottom: 0;
     }
 
     .fotter-text-one {
